@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     loadData() {
-      // 循环检查
+      // 循环检查数据
 
       let getLocalStorage = setInterval(() => {
         let localStorage = JSON.parse(
